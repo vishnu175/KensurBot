@@ -46,3 +46,4 @@ TgCrypto
 wikipedia
 youtube-dl
 youtube_search
+bitlyshortener
