@@ -31,7 +31,7 @@ async def shortener(short):
         link_match = match(r'\bhttps?://.*\.\S+', message)
         if not link_match:
             await short.edit("`Error! Please provide valid url!`\nexample: https://google.com")
-            return
+            returns
         urls = [f'{message}']
         bitly = Shortener(tokens=token, max_cache_size=8192)
         raw_output = bitly.shorten_urls(urls)
